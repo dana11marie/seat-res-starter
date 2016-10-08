@@ -1,5 +1,7 @@
 h1 {
    font-family: 'Righteous', cursive;
+    text-align:center;
+
 }
 
 p {
@@ -12,6 +14,27 @@ p {
     padding: 2px;
 }
 
+.nav {
+  background-image: url(images/stage_red_curtain-1000x620.jpg);
+  background-size: 50%;
+  background-position: center;    
+  max-width: 100%;
+  min-width: 140px;
+  flex: 1;
+  color: white;   
+}
+.nav > ul {
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style-type:none;
+     text-align:inline-block;
+}
+
+
+.nav, h2{
+    margin-left: 50px;
+}
 .seat-chart {
   width: 90%;
   margin: 0 auto;
