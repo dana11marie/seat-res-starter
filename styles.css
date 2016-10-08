@@ -1,3 +1,12 @@
+h1 {
+   font-family: 'Righteous', cursive; 
+}
+
+p {
+  font-family: 'Righteous', cursive;
+  font-family: 'Kaushan Script', cursive;  
+}
+
 .seat-chart {
   width: 90%;
   margin: 0 auto;
@@ -17,4 +26,8 @@
   margin: auto;
   min-height: 100px;
   display: inline-block;
+}
+
+body {
+  background-image: url(images/background.jpg);
 }
