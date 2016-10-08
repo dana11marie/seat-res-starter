@@ -18,3 +18,7 @@
   min-height: 100px;
   display: inline-block;
 }
+
+body {
+  background-image: url(images/background.jpg);
+}
