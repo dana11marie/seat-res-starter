@@ -4,7 +4,15 @@ h1 {
 
 p {
   font-family: 'Righteous', cursive;
+<<<<<<< HEAD
   font-family: 'Kaushan Script', cursive;
+=======
+  font-family: 'Kaushan Script', cursive; 
+    font-style:bold;
+    font-size:130%;
+    border:2px solid black;
+    padding: 2px;
+>>>>>>> d5efa691fdfae23e38e887a3be8d5cb3a8f3b422
 }
 
 .seat-chart {
