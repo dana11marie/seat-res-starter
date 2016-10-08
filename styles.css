@@ -1,10 +1,10 @@
 h1 {
-   font-family: 'Righteous', cursive; 
+   font-family: 'Righteous', cursive;
 }
 
 p {
   font-family: 'Righteous', cursive;
-  font-family: 'Kaushan Script', cursive;  
+  font-family: 'Kaushan Script', cursive;
 }
 
 .seat-chart {
@@ -30,4 +30,12 @@ p {
 
 body {
   background-image: url(images/background.jpg);
+  background-attachment: fixed;
+}
+
+ .body {
+  background-color: rgba(160,160,160,0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
 }
