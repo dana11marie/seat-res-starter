@@ -18,7 +18,10 @@ p {
 }
 
 .available {
-  background-color: green;
+  background-image: url(images/ticket.png);
+  background-position: center center;
+  margin: auto;
+  background-repeat: no-repeat;
   width: 24%;
   margin: auto;
   min-height: 100px;
@@ -26,7 +29,9 @@ p {
 }
 
 .reserved {
-  background-color: red;
+  background-image: url(images/unavailable.png);
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 24%;
   margin: auto;
   min-height: 100px;
