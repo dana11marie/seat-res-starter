@@ -17,24 +17,24 @@ p {
   margin: 0 auto;
 }
 
-.available {
-  background-image: url(images/ticket.png);
+.available {  
   background-position: center center;
   margin: auto;
   background-repeat: no-repeat;
   width: 24%;
   margin: auto;
   min-height: 100px;
+  height: 8%;
   display: inline-block;
 }
 
 .reserved {
-  background-image: url(images/unavailable.png);
   background-position: center center;
   background-repeat: no-repeat;
   width: 24%;
   margin: auto;
-  min-height: 100px;
+  min-height: 120px;
+  height: 8%;
   display: inline-block;
 }
 
