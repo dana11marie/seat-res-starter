@@ -1,17 +1,39 @@
 h1 {
    font-family: 'Righteous', cursive;
+    text-align:center;
+
 }
 
 p {
-  font-family: 'Righteous', cursive;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Abhaya Libre', serif;
     font-style:bold;
-    font-size:130%;
+    font-size:180%;
     border-top:2px solid black;
     border-bottom:2px solid black;
     padding: 2px;
 }
 
+.nav {
+  background-image: url(images/lights.jpg);
+  background-size: 100%;
+  background-position: center;    
+  max-width: 100%;
+  min-width: 140px;
+  flex: 1;
+  color: white;   
+}
+.nav > ul, li {
+	margin-left:25px;
+	padding:0px;
+	float:left;
+	list-style-type:none;
+    text-align:inline-block;
+}
+
+
+.nav, h2{
+    margin-left: 50px;
+}
 .seat-chart {
   width: 90%;
   margin: 0 auto;
