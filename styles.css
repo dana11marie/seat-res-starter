@@ -5,30 +5,29 @@ h1 {
 }
 
 p {
-  font-family: 'Righteous', cursive;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Abhaya Libre', serif;
     font-style:bold;
-    font-size:130%;
+    font-size:180%;
     border-top:2px solid black;
     border-bottom:2px solid black;
     padding: 2px;
 }
 
 .nav {
-  background-image: url(images/stage_red_curtain-1000x620.jpg);
-  background-size: 50%;
+  background-image: url(images/lights.jpg);
+  background-size: 100%;
   background-position: center;    
   max-width: 100%;
   min-width: 140px;
   flex: 1;
   color: white;   
 }
-.nav > ul {
-	margin:0px;
+.nav > ul, li {
+	margin-left:25px;
 	padding:0px;
 	float:left;
 	list-style-type:none;
-     text-align:inline-block;
+    text-align:inline-block;
 }
 
 
