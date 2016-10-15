@@ -3,6 +3,12 @@ h1 {
     font-size: 160%;
 }
 
+h3 {
+   font-family: 'Rubik', sans-serif;
+    font-size: 80%;
+    text-align: center;
+}
+
 p {
   font-family: 'Rubik', sans-serif;
     font-style:bold;
